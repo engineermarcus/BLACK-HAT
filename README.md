@@ -1,11 +1,11 @@
 ## **BLACK HAT PYTHON 3**
 
-## **AUTHORS**
+**AUTHORS**
      Engineer Marcus
      --
      --
 
-## **LEGAL DISCLAIMER**
+**LEGAL DISCLAIMER**
      This content is not reponsible for any of the actions taken by user or by the reader.     
 
 ## **LINCENSE**
@@ -14,6 +14,7 @@
 ## **NETWORK HACKERY**
 
 **TCP CLIENT**
+make a script: tcp_client.py 
 ```sh 
 import socket
 target_host = "www.google.com"
@@ -36,4 +37,8 @@ response = client.recv(4096)
 print(response.decode())
 client.close()
 
+```
+**RUN THE SCRIPT**
+```sh
+python tcp_client.py
 ```
