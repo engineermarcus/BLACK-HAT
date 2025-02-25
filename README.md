@@ -12,7 +12,8 @@ This content is not reponsible for any of the actions taken by user or by the re
 
 ## **NETWORK HACKERY**
 
-## TCP CLIENT
+**TCP CLIENT**
+
 make a script: tcp_client.py 
 ```sh 
 import socket
@@ -37,7 +38,34 @@ print(response.decode())
 client.close()
 
 ```
-## RUN THE SCRIPT
+**RUN THE SCRIPT**
 ```sh
 python tcp_client.py
+```
+**UDP CLIENT** 
+
+make a script: udp_client.py
+```sh
+import socket
+
+target_host = "127.0.0.1"
+target_port = 9997
+
+# Create a socket object
+client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+# Send some data
+client.sendto(b"AAABBBCCC", (target_host, target_port))
+
+# Receive data
+data, addr = client.recvfrom(4096)
+
+print(data.decode())
+
+client.close()
+```
+
+**RUN**
+```sh
+python udp_client.py
 ```
