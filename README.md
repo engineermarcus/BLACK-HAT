@@ -1,9 +1,8 @@
 ## **BLACK HAT PYTHON 3**
 
 ## AUTHORS
+
 Engineer Marcus
---
---
 
 ## LEGAL DISCLAIMER
 This content is not reponsible for any of the actions taken by user or by the reader.     
@@ -39,6 +38,6 @@ client.close()
 
 ```
 ## RUN THE SCRIPT
-
-   python tcp_client.py
-
+```sh
+python tcp_client.py
+```
