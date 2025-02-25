@@ -1,11 +1,11 @@
 ## **BLACK HAT PYTHON 3**
 
-**AUTHORS**
+## AUTHORS
      Engineer Marcus
      --
      --
 
-**LEGAL DISCLAIMER**
+## LEGAL DISCLAIMER
      This content is not reponsible for any of the actions taken by user or by the reader.     
 
 ## **LINCENSE**
@@ -13,7 +13,7 @@
 
 ## **NETWORK HACKERY**
 
-**TCP CLIENT**
+## TCP CLIENT
 make a script: tcp_client.py 
 ```sh 
 import socket
@@ -38,7 +38,7 @@ print(response.decode())
 client.close()
 
 ```
-**RUN THE SCRIPT**
+## RUN THE SCRIPT
 ```sh
 python tcp_client.py
 ```
